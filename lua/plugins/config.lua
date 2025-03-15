@@ -18,9 +18,10 @@ if true then return {
     -- setting the keybinding for LazyGit with 'keys' is recommended in
     -- order to load the plugin when the command is run for the first time
     keys = {
-        { "<leader>lg", "<cmd>LazyGit<cr>", desc = "LazyGit" }
+        -- Leaving as an example
+        -- { "<leader>lg", "<cmd>LazyGit<cr>", desc = "LazyGit" }
     }
- }
+ },
 } end
 
 -- every spec file under the "plugins" directory will be loaded automatically by lazy.nvim
