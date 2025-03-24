@@ -1,12 +1,15 @@
 return {
-  -- add gruvbox
   { "EdenEast/nightfox.nvim" },
-
-  -- Configure LazyVim to load gruvbox
+  {
+    "neanias/everforest-nvim",
+    lazy = false,
+    priority = 1000,
+    config = function() end,
+  },
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "nightfox",
+      colorscheme = "everforest",
     },
   },
 }
